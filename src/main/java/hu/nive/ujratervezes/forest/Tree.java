@@ -12,9 +12,9 @@ public abstract class Tree {
         this.height = height;
     }
 
-    abstract void irrigate();
+    public abstract void irrigate();
 
-    abstract String getName();
+    public abstract String getName();
 
     public int increase1() {
         return this.height++;

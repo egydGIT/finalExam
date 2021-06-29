@@ -10,12 +10,12 @@ public class FoxtailPine extends Tree {
     }
 
     @Override
-    void irrigate() {
+    public void irrigate() {
         increase1();            // feladatkiírás és a teszteset szerintem itt eltér
     }
 
     @Override
-    String getName() {
+    public String getName() {
         return "FoxtailPine";
     }
 

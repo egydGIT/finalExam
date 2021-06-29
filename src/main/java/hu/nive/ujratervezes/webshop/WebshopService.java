@@ -35,4 +35,11 @@ public class WebshopService {
 
     }
 
+    /*
+    Gloria Hyatt
+    Clara Spinka
+    Stacy Doyle Jr.
+    Gloria Hyatt
+     */
+
 }

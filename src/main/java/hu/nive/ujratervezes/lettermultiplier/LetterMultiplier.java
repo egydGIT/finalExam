@@ -4,7 +4,7 @@ public class LetterMultiplier {
 
 
     public String multiply(String input, int number) {
-        if (input == null || input.isBlank() || input == "") {
+        if (input == null || input.isBlank() || input.equals("")) {
             throw new IllegalArgumentException("Wrong param: " + input);
         }
         if (number < 0 ) {
@@ -16,5 +16,11 @@ public class LetterMultiplier {
             sb.append(s);
         }
         return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        LetterMultiplier letterMultiplier = new LetterMultiplier();
+        String s = letterMultiplier.multiply("java", 3);
+        System.out.println(s);
     }
 }

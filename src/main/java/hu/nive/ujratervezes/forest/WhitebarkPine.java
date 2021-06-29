@@ -10,12 +10,12 @@ public class WhitebarkPine extends Tree {
     }
 
     @Override
-    void irrigate() {
+    public void irrigate() {
         increase2();
     }
 
     @Override
-    String getName() {
+    public String getName() {
         return "WhitebarkPine";
     }
 

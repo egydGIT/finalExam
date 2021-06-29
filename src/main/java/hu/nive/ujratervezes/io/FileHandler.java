@@ -25,4 +25,12 @@ public class FileHandler {
         return sum;
     }
 
+    public static void main(String[] args) {
+        int sum1 = new FileHandler().sumIgnoreComments("src/test/resources/numbers.txt");
+        System.out.println(sum1);
+
+        int sum2 = new FileHandler().sumIgnoreComments("src/test/resources/numbers_with_comments.txt");
+        System.out.println(sum2);
+    }
+
 }
