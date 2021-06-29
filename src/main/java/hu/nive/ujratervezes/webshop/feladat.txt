@@ -1,0 +1,37 @@
+Webshop
+Egy webshop adatbázisával dolgozol, amelyben rendelések (orders) vannak.
+
+Adatbázis
+Az adatbázis egyetlen táblát tartalmaz, orders néven, az alábbi oszlopokkal:
+
+id int primary key (elsődleges kulcs)
+total int
+order_date datettime
+customer_name varchar
+
+Például:
+
+id	total	order_date	customer_name
+1	959.1	2021-01-22T00:28:53.986Z	Olga Johns
+2	703.6	2021-01-22T09:23:59.829Z	Maria Lebsack
+3	1374.1	2021-01-24T13:52:07.161Z	Gloria Hyatt
+4	1385	2021-01-22T03:40:41.063Z	Clara Spinka
+5	747.7	2021-01-20T21:52:58.248Z	Lonnie Stamm
+6	517.9	2021-01-24T15:38:49.595Z	Maria Lebsack
+7	830.4	2021-01-20T07:29:12.267Z	Lonnie Stamm
+8	967.3	2021-01-20T12:53:27.423Z	Pat Glover
+9	931.2	2021-01-21T07:33:14.933Z	Maria Lebsack
+10	1141.2	2021-01-19T20:56:49.386Z	Stacy Doyle Jr.
+11	569.4	2021-01-20T23:42:01.551Z	Lester Wyman
+12	1023.4	2021-01-24T03:24:39.362Z	Gloria Hyatt
+13	788.7	2021-01-21T00:49:51.610Z	Mrs. Carrie Powlowski
+14	996.5	2021-01-19T20:53:52.471Z	Barry Pollich
+15	450.7	2021-01-21T11:35:42.433Z	Mrs. Carrie Powlowski
+
+
+
+Java alkalmazás
+Hozd létre a WebshopService osztályt, melyben egyetlen publikus metódus van, getValuableCustomers néven,
+ami térjen vissza azoknak az ügyfelek a nevével (customer_name), akik több, 1000-ért rendeltek, ABC szerint növekvő sorrendben.
+
+Ha az adatbázis üres, akkor a metódus térjen vissza üres listával.

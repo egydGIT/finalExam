@@ -1,6 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a71c5cf-d2c8-4132-b9ad-b0091cda6580" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_7_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kepesitovizsga-potvizsga.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/FoxtailPine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/Lumberjack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/WhitebarkPine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest/feladat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/io/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/io/feladat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/lettermultiplier/LetterMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/lettermultiplier/feladat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/webshop/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/webshop/WebshopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/webshop/feladat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uc2K8sHBmRQxQxq4jjrWWsrBDu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/training-solutions" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/forest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hu.nive.ujratervezes.forest" />
+      <recent name="hu.nive.ujratervezes.lettermultiplier" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\egydGIT\kepesitovizsga-potvizsga\src\main\java\hu\nive\ujratervezes\lettermultiplier" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hu.nive.ujratervezes.webshop" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hu.nive.ujratervezes.io" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WhitebarkPineTest">
+    <configuration name="ForestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kepesitovizsga-potvizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.forest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.forest" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.forest.ForestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoxtailPineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kepesitovizsga-potvizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.forest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.forest" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.forest.FoxtailPineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LumberjackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kepesitovizsga-potvizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.forest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.forest" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.forest.LumberjackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kepesitovizsga-potvizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.webshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.webshop" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.webshop.WebshopServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhitebarkPineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kepesitovizsga-potvizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.forest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.forest" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.forest.WhitebarkPineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WhitebarkPineTest" />
+        <item itemvalue="JUnit.LumberjackTest" />
+        <item itemvalue="JUnit.FoxtailPineTest" />
+        <item itemvalue="JUnit.ForestTest" />
+        <item itemvalue="JUnit.WebshopServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a71c5cf-d2c8-4132-b9ad-b0091cda6580" name="Default Changelist" comment="" />
+      <created>1624950490615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624950490615</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Exam start">
+      <created>1624951176548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624951176548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exam start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam start" />
   </component>
 </project>

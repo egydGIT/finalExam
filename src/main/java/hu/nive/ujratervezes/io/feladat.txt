@@ -1,0 +1,29 @@
+Ignore the comments
+
+Írd meg a hu.nive.ujratervezes.io.FileHandler osztály sumIgnoreComments() nevű metódusát.
+Ez egy fájlnak a relatív elérési útvonalát várja.
+A fájl főként egész számokat tartalmaz.
+Azonban vannak olyan sorok, melyeket nem kell feldolgozni, ezek két perjellel (//) kezdődnek.
+Azon számokat, melyek előtt nincsenek perjelek, össze kell adni. Egy szám értéke maxium 10_000.
+Minden sor csak egy számot tartalmaz, vagy perjelekkel kezdődően bármit.
+
+Példa
+Bemenet:
+
+1
+2
+3
+Kimenet:
+
+6, hiszen a három szám összege hat
+
+Bemenet:
+
+1
+// 8
+2
+// aaaa
+3
+Kimenet:
+
+6, hiszen a három szám összege hat, és a perjelekkel kezdődő sorokat nem kell figyelembe venni

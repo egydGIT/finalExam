@@ -1,0 +1,35 @@
+Forest simulator
+
+Ebben a feladatban modellezned kell egy erdőt, tele fával, és egy favágót, mely a megfelelő fákat kivágja.
+Sőt, a fák nőnek is, eső hatására.
+
+Tree (fa)
+Hozz létre a hu.nive.ujratervezes.forest csomagban egy Tree osztályt, melynek van egy magassága (height)!
+Létre lehessen hozni magasság megadása nélkül (ekkor az alapértelmezett érték a 0), és a magasság megadásával is!
+Legyen egy irrigate() metódusa, paraméter nélkül, azonban ezt ne implementáld! Lehessen lekérdezni a magasságát!
+
+WhitebarkPine
+Ez egy fa, az irrigate() metódusának hívása esetén a magassága nőjjön kettővel!
+
+FoxtailPine
+Ez egy fa, az irrigate() metódusának hívása esetén a magassága nőjjön kettővel!   ?????
+
+Lumberjack (favágó)
+Létre lehessen hozni egy favágót paraméter megadása nélkül!
+Legyen egy canCut() metódusa, amely paraméterül vár egy fát.
+Visszaad egy logikai értéket, mely true, ha a fa magasabb, mint 4 egység.
+
+Forest (erdő)
+Az erdőben fák vannak. Létrehozhatod úgy, hogy fák listáját adod át paraméterül. A következő metódusai legyenek:
+
+rain() - mindegyik fának meghívja az irrigate() metódusát
+cutTrees() - paraméterül vár egy Lumberjack példányt. Mindegyik fát eltávolítja az erdőből, melyet a favágó ki tud vágni.
+            Ne feledd, erre van a favágó canCut() metódusa!
+isEmpty() - logikai értékkel tér vissza, hogy üres-e az erdő
+getStatus() - egy string listában visszaadja, hogy milyen fák vannak az erdőben, pl.
+[
+  'There is a 3 tall WhitebarkPine in the forest.',
+  'There is a 2 tall WhitebarkPine in the forest.',
+  'There is a 4 tall FoxtailPine in the forest.'
+]
+Minden fához egy sor tartozik. Nem kell összesíteni a fákat típus szerint!
