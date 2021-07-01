@@ -11,9 +11,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WebshopServiceTest {
+class WebshopServiceDaoTest {
 
-    private WebshopService webshopService;
+    private WebshopServiceDao webshopServiceDao;
 
     @BeforeEach
     void init() throws SQLException {
@@ -28,13 +28,13 @@ class WebshopServiceTest {
         flyway.clean();
         flyway.migrate();
 
-        webshopService = new WebshopService(dataSource);
+        webshopServiceDao = new WebshopServiceDao(dataSource);
 
     }
 
     @Test
     void getValuableCustomers() {
-        List<String> names = webshopService.getValuableCustomers();
+        List<String> names = webshopServiceDao.getValuableCustomers();
         assertEquals(Arrays.asList("Clara Spinka", "Gloria Hyatt", "Gloria Hyatt", "Stacy Doyle Jr."), names);
     }
 }
