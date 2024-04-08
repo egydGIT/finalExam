@@ -13,7 +13,7 @@ import java.util.Locale;
 
 public class WebshopServiceDao {
 
-    DataSource dataSource;
+    private DataSource dataSource;
 
     public WebshopServiceDao(DataSource dataSource) {              // dependency injection
         this.dataSource = dataSource;
